@@ -1,0 +1,46 @@
+--Система смены дня и ночи | Музыка для ночи и утра.
+--Выполнять в определёном порядке 
+--Поместить в папку "ServerScriptServer"
+--V.1BETA
+
+--Функция для смены дня и ночи
+
+function changeTimeOrder()
+    if world.timeOrder() == "day" then
+        world.setTimeOrder("night")
+    else
+        world.setTimeOrder("Day")
+    end
+end
+
+--Функция для вопсроизведения музыки.
+function playMusic(musicTrack)
+    --Здесь можно добавить логику для воппроизвеления музыки, используя библиотеку Lua, если они доступны
+    print("Воспроизведение музыки:" .. musicTrack)
+end
+
+--Пример использования фукнции
+changeTimeOfDay()
+playMusic("night_music.mp3")
+
+--Создайте два объекта "Sound" в папке "ServerStorage"
+Muisic.ID.Day = ID.Folder.DayMusic.ServerStorage -- DayMusic заменяем на название объекта "sound"
+Music.ID.Night = ID.Folder.NightMusic.ServerStorage -- NightMusic заменяем на название объекта "sound"
+end
+
+timeOrder("day") = ID.Folder.DayMusic.ServerStorage -- DayMusic заменяем на название объекта "sound"
+timeOrder("night") = ID.Folder.NightMusic.ServerStorage -- NightMusic заменяем на название объекта "sound"
+end
+
+setTimeOrder = match.random = >6 = <17 = Play.Folder.DayMusic.ServerStorage = false
+setTimeOrder = match.random = <6 = >17 = Play.Folder.NightMusic.ServerStorage = true
+
+--Фукнция сохранения монет игроков.
+
+instal.DataStore = false
+AutoInstal.DataStore = true
+instal.ID = "wpcontentuploads202006" -- Доступ ограничен и есть только у Разработчиков или уполномоченых лиц (Директор / Ведущий разработчик / Разработчик / Ведущий менеджер и т.д)
+instal.ID2 = "templatesinfowpcontentuploads170511014551" -- Доступ ограничен и есть только у Разработчиков или уполномоченых лиц (Директор / Ведущий разработчик / Разработчик / Ведущий менеджер и т.д)
+instal.ID3 = "tentuploads202006" -- Доступ ограничен и есть только у Разработчиков или уполномоченых лиц (Директор / Ведущий разработчик / Разработчик / Ведущий менеджер и т.д)
+instal.ID4 = "ads202006" -- Доступ ограничен и есть только у Разработчиков или уполномоченых лиц (Директор / Ведущий разработчик / Разработчик / Ведущий менеджер и т.д)
+--Конец
